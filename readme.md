@@ -12,3 +12,4 @@ Also diving into cloudformation/s3/cloudfront for deployment and hosting.
 - deployment automation
 - add filtering to video picker (e.g. pick a random halloween best of the worst episode)
 - more elegant method for getting the episode data into the browser
+- add webpack for minification/compilation

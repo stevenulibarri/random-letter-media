@@ -1,0 +1,160 @@
+@font-face {
+  font-family: Poppins;
+  src: url("../font/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Poppins-Bold-Italic;
+  src: url("../font/Poppins-BoldItalic.ttf");
+}
+
+html {
+  font-family: Poppins, sans-serif;
+  color: #FFFFFF;
+  background-color: #38383B;
+  margin: auto
+}
+
+header {
+  background-color: #38383B;
+  padding: 1vw 2vw;
+}
+
+.title-text-container {
+  display: flex;
+  justify-content: center;
+  font-size: min(8.8vw, 74px);
+}
+
+.title-text-container span {
+  font-family: Poppins-Bold-Italic;
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0em;
+  line-height: 1.8em;
+  text-shadow: 1px 1px #000000;
+}
+
+.subtitle-container {
+  text-align: center;
+  font-size: min(3.6vw, 16px);
+  height: 0;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  position: relative;
+  bottom: min(3.6vw, 40px);
+}
+
+.subtitle a {
+  color: #FFFFFF;
+
+}
+
+.red {
+  color: #A60101;
+}
+
+.white {
+  color: #FFFFFF
+}
+
+.show-options-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.selected-show {
+  border-bottom: 1px solid #FFFFFF;
+}
+
+.show-options-list li {
+  margin: 0 0.8em;
+  text-align: center;
+  display: inline;
+}
+
+@media screen and (min-width: 561px) {
+  main {
+    background-image: url("../images/background.jpg");
+  }
+}
+
+@media screen and (max-width: 560px) {
+  .show-options-list li {
+    flex-basis: calc(50% - 1.6em);
+  }
+
+  main {
+    background-image: url("../images/background-mobile.jpg");
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .show-options-list li {
+    flex-basis: calc(100% - 1.6em);
+  }
+}
+
+.get-video-button-container {
+  text-align: center;
+  margin-top: 1em;
+}
+
+.get-video-button {
+  width: 4em;
+  height: 2em;
+}
+
+main {
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+
+.content-container {
+  max-width: 880px;
+  margin: auto;
+  padding: 5px;
+}
+
+.video-container {
+  position: relative;
+  width: 95%;
+  height: 0;
+  padding-bottom: 56.25%;
+  margin: auto;
+}
+
+.video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  padding: 10px;
+}
+
+.social-container {
+  text-align: center;
+}
+
+.social-icon {
+  width: 36px;
+  display: inline-block;
+  margin: 2.5px;
+}
+
+.credits {
+  text-align: center;
+  font-size: 12px;
+}
+
+.credits span a {
+  color: #FFFFFF;
+}

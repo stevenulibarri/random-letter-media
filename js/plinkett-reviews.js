@@ -1,0 +1,94 @@
+const plinkettReviewsEpisodes = [
+  {
+    title: 'Star Wars: The Phantom Menace Review',
+    url: 'https://www.youtube.com/embed/videoseries?list=PLKdFXGeK4xc_sdYsw8_avlCV-Vg0l6qMn'
+  },
+  {
+    title: 'Star Wars: Attack of the Clones Review',
+    url: 'https://www.youtube.com/embed/videoseries?list=PL56E3EB1DFD4B64A2'
+  },
+  {
+    title: 'Star Wars: Revenge of the Sith Review',
+    url: 'https://www.youtube.com/embed/bYWAHuFbLoc'
+  },
+  {
+    title: 'Mr. Plinkett\'s Star Trek Picard Review',
+    url: 'https://www.youtube.com/embed/TwF1iri1GjQ'
+  },
+  {
+    title: 'Star Wars: The Last Plinkett Review',
+    url: 'https://www.youtube.com/embed/f83D18xL7VE'
+  },
+  {
+    title: 'Mr. Plinkett\'s Zombie Review!!!',
+    url: 'https://www.youtube.com/embed/Et6QLISlFL8'
+  },
+  {
+    title: 'Mr. Plinkett\'s Ghostbusters (2016) Review',
+    url: 'https://www.youtube.com/embed/AHUV8QLpEAc'
+  },
+  {
+    title: 'Mr. Plinkett Responds to Comments on his Video Commenting on Disney\'s Star Wars Rogue One!',
+    url: 'https://www.youtube.com/embed/i9-vP7kJheI'
+  },
+  {
+    title: 'Mr. Plinkett Talks About Rogue One',
+    url: 'https://www.youtube.com/embed/uJgfxlgUIZY'
+  },
+  {
+    title: 'Mr. Plinkett\'s The Star Wars Awakens Review',
+    url: 'https://www.youtube.com/embed/miVRaoR_8xQ'
+  },
+  {
+    title: 'Baby\'s Day Out Review',
+    url: 'https://www.youtube.com/embed/7zjXphIoYwg'
+  },
+  {
+    title: 'Cinco De Star Wars!',
+    url: 'https://www.youtube.com/embed/93uSIKzPmik'
+  },
+  {
+    title: 'Mr. Plinkett Reacts to the Star Wars: The Force Awakens Trailer',
+    url: 'https://www.youtube.com/embed/yBEdgPFoBjY'
+  },
+  {
+    title: 'Mr. Plinkett - Star Trek: Into Reference',
+    url: 'https://www.youtube.com/embed/HeyLm-pLVm4'
+  },
+  {
+    title: 'Mr. Plinkett\'s Titanic Review',
+    url: 'https://www.youtube.com/embed/WHiceVim9Wg'
+  },
+  {
+    title: 'Mr. Plinkett\'s Indiana Jones and the Kingdom of the Crystal Skull Review',
+    url: 'https://www.youtube.com/embed/-zphhfHon_I'
+  },
+  {
+    title: 'Mr. Plinkett\'s Cop Dog Review',
+    url: 'https://www.youtube.com/embed/XlaZTPYPFEA'
+  },
+  {
+    title: 'Mr. Plinkett\'s Star Trek 2009 Review',
+    url: 'https://www.youtube.com/embed/videoseries?list=PLKdFXGeK4xc9jWmllTYmTrDqtknRR3_d5'
+  },
+  {
+    title: 'Avatar Review',
+    url: 'https://www.youtube.com/embed/videoseries?list=PLKdFXGeK4xc_5GDqN7Sai1L_KTWBRMeUv'
+  },
+  {
+    title: 'Star Trek: Nemesis Review',
+    url: 'https://www.youtube.com/embed/videoseries?list=PLKdFXGeK4xc8aQem1wbbAOYIiqWyfZoM-'
+  },
+  {
+    title: 'Star Trek Insurrection Review',
+    url: 'https://www.youtube.com/embed/videoseries?list=PLKdFXGeK4xc8Dx1rEbVFPz40dvPg7Fjp1'
+  },
+  {
+    title: 'Star Trek: First Contact Review',
+    url: 'https://www.youtube.com/embed/videoseries?list=PLKdFXGeK4xc9Cagp7lRYCks-NN6c9VUp5'
+  },
+  {
+    title: 'Star Trek: Generations Review',
+    url: 'https://www.youtube.com/embed/videoseries?list=PLKdFXGeK4xc9XwvxtXdJ7whSrUEadcaEX'
+  },
+];

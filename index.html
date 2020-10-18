@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- open graph -->
+    <meta property="og:url" content="https://randomlettermedia.com"/>
+    <meta property="og:title" content="RandomLetterMedia"/>
+    <meta property="og:description" content="A RedLetterMedia Video Picker"/>
+    <meta property="og:locale" content="en_US"/>
+    <meta property="og:type" content="website"/>
+
+    <meta property="og:image" content="https://randomlettermedia.com/iamges/background.jpg"/>
+    <meta property="og:image:width" content="1920"/>
+    <meta property="og:image:height" content="768"/>
+
+    <!-- twitter meta -->
+    <meta name="twitter:card" content="summary"/>    
+
+    <link rel="icon" type="image/x-icon" href="./images/site-icon.ico"/>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/site.css">
+    <script type="text/javascript" src="js/best-of-the-worst.js"></script>
+    <script type="text/javascript" src="js/half-in-the-bag.js"></script>
+    <script type="text/javascript" src="js/re-view.js"></script>
+    <script type="text/javascript" src="js/plinkett-reviews.js"></script>
+    <script type="text/javascript" src="js/site.js"></script>
+    <title>Random Letter Media</title>
+  </head>
+  <body>
+    <header>
+      <div class="title-text-container">
+        <span class="red">Random</span>
+        <span class="white">Letter</span>
+        <span class="red">Media</span>
+      </div>
+      <div class ="subtitle-container">
+        <span class="subtitle">A <a href="https://www.youtube.com/user/RedLetterMedia" target="_blank">RedLetterMedia</a> video Picker</span>
+      </div>
+      <div class="show-select">
+        <div>
+          <ul class="show-options-list">
+            <li id="bestOfTheWorst" onclick="selectShow(this)">
+              <span class="selected-show">Best of the Worst</span>
+            </li>
+            <li id="halfInTheBag" onclick="selectShow(this)">
+              <span>Half in the Bag</span>
+            </li>
+            <li id="reView" onclick="selectShow(this)">
+              <span>Re:View</span>
+            </li>
+            <li id="plinkettReviews" onclick="selectShow(this)">
+              <span>Plinkett Reviews</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="get-video-button-container">
+        <button
+          class="get-video-button"
+          onclick="getRandomVideo()">
+          Go
+        </button>
+      </div>
+    </header>
+    <main>
+      <div class="content-container">
+        <div class="video-container">
+          <iframe
+            frameborder = "0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen
+            class="video"
+            id="video-iframe"
+            src="">
+          </iframe>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="social-container">
+        <a href="https://www.youtube.com/user/RedLetterMedia" target="_blank">
+          <img class="social-icon" src="./images/youtube.svg">
+        </a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frandomlettermedia.com" target="_blank">
+          <img class="social-icon" src="./images/facebook.svg">
+        </a>
+        <a href="https://twitter.com/intent/tweet?text=RandomLetterMedia%3A%20A%20RedLetterMedia%20Video%20Picker&url=https%3A%2F%2Frandomlettermedia.com" target="_blank">
+          <img class="social-icon" src="./images/twitter.svg">
+        </a>
+      </div>
+      <div class="credits">
+        <p>
+          <span>Photo by <a href="https://unsplash.com/@seanbenesh?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Sean Benesh</a> on <a href="https://unsplash.com/s/photos/vhs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Unsplash</a></span>
+        </p>
+        <p>
+          <span>Site by <a href="https://www.linkedin.com/in/stevenulibarri/" target="_blank">Steven Ulibarri</a> | <a href="https://github.com/stevenulibarri/random-letter-media" target="_blank">Source</a></span>
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>

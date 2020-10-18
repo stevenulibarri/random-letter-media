@@ -1,9 +1,29 @@
+import bestOfTheWorstEpisodes from '../data/best-of-the-worst.json';
+import halfInTheBagEpisodes from '../data/half-in-the-bag.json';
+import plinkettReviewsEpisodes from '../data/plinkett-reviews.json';
+import reViewEpisodes from '../data/re-view.json';
+
+import '../css/reset.css';
+import '../css/site.css';
+
 const showToEpisodesMap = {
   bestOfTheWorst: bestOfTheWorstEpisodes,
   halfInTheBag: halfInTheBagEpisodes,
   plinkettReviews: plinkettReviewsEpisodes,
   reView: reViewEpisodes,
 };
+
+// setup onlicks
+window.addEventListener('DOMContentLoaded', () => {
+  Object.keys(showToEpisodesMap).forEach(key => {
+    const el = document.getElementById(key);
+    el.onclick = () => selectShow(el);
+
+  });
+
+  const getShowButton = document.getElementById('get-video-button');
+  getShowButton.onclick = () => getRandomVideo();
+});
 
 // default on page load
 let selectedShow = 'bestOfTheWorst';

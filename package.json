@@ -2,13 +2,23 @@
   "name": "@stevenulibarri/random-letter-media",
   "version": "0.1.0",
   "description": "",
-  "main": "code.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "webpack --watch --config webpack.dev.js",
+    "build": "webpack --config webpack.prod.js"
   },
   "author": "steven.ulibarri@gmail.com",
   "license": "UNLICENSED",
   "devDependencies": {
-    "eslint": "^7.11.0"
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.2.1",
+    "css-loader": "^5.0.0",
+    "file-loader": "^6.1.1",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.0.0",
+    "webpack-merge": "^5.2.0"
+  },
+  "dependencies": {
+    "npm-check-updates": "^9.1.0"
   }
 }

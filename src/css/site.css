@@ -146,8 +146,23 @@ footer {
 
 .social-icon {
   width: 36px;
+  height: 36px;
   display: inline-block;
   margin: 2.5px;
+  background-position: center center;
+  background-size: cover;
+}
+
+.youtube-icon {
+  background-image: url('../images/youtube.svg');
+}
+
+.facebook-icon {
+  background-image: url('../images/facebook.svg');
+}
+
+.twitter-icon {
+  background-image: url('../images/twitter.svg');
 }
 
 .credits {

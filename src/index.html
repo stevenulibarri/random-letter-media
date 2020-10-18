@@ -17,14 +17,8 @@
     <!-- twitter meta -->
     <meta name="twitter:card" content="summary"/>    
 
-    <link rel="icon" type="image/x-icon" href="./images/site-icon.ico"/>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/site.css">
-    <script type="text/javascript" src="js/best-of-the-worst.js"></script>
-    <script type="text/javascript" src="js/half-in-the-bag.js"></script>
-    <script type="text/javascript" src="js/re-view.js"></script>
-    <script type="text/javascript" src="js/plinkett-reviews.js"></script>
-    <script type="text/javascript" src="js/site.js"></script>
+    <link rel="icon" type="image/x-icon" href="./favicon.ico"/>
+    <script type="text/javascript" src="./bundle.js"></script>
     <title>Random Letter Media</title>
   </head>
   <body>
@@ -40,16 +34,16 @@
       <div class="show-select">
         <div>
           <ul class="show-options-list">
-            <li id="bestOfTheWorst" onclick="selectShow(this)">
+            <li id="bestOfTheWorst">
               <span class="selected-show">Best of the Worst</span>
             </li>
-            <li id="halfInTheBag" onclick="selectShow(this)">
+            <li id="halfInTheBag">
               <span>Half in the Bag</span>
             </li>
-            <li id="reView" onclick="selectShow(this)">
+            <li id="reView">
               <span>Re:View</span>
             </li>
-            <li id="plinkettReviews" onclick="selectShow(this)">
+            <li id="plinkettReviews">
               <span>Plinkett Reviews</span>
             </li>
           </ul>
@@ -57,8 +51,8 @@
       </div>
       <div class="get-video-button-container">
         <button
-          class="get-video-button"
-          onclick="getRandomVideo()">
+          id="get-video-button"
+          class="get-video-button">
           Go
         </button>
       </div>
@@ -79,15 +73,9 @@
     </main>
     <footer>
       <div class="social-container">
-        <a href="https://www.youtube.com/user/RedLetterMedia" target="_blank">
-          <img class="social-icon" src="./images/youtube.svg">
-        </a>
-        <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frandomlettermedia.com" target="_blank">
-          <img class="social-icon" src="./images/facebook.svg">
-        </a>
-        <a href="https://twitter.com/intent/tweet?text=RandomLetterMedia%3A%20A%20RedLetterMedia%20Video%20Picker&url=https%3A%2F%2Frandomlettermedia.com" target="_blank">
-          <img class="social-icon" src="./images/twitter.svg">
-        </a>
+        <a class="social-icon youtube-icon" href="https://www.youtube.com/user/RedLetterMedia" target="_blank"></a>
+        <a class="social-icon facebook-icon" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frandomlettermedia.com" target="_blank"></a>
+        <a class="social-icon twitter-icon" href="https://twitter.com/intent/tweet?text=RandomLetterMedia%3A%20A%20RedLetterMedia%20Video%20Picker&url=https%3A%2F%2Frandomlettermedia.com" target="_blank"></a>
       </div>
       <div class="credits">
         <p>

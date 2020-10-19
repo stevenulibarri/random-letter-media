@@ -3,6 +3,7 @@
 A RedLetterMedia Video Picker
 
 Small, simple project meant to help me dust off my web dev skills.  
+Mobile first design.  
 No frameworks or theme kits, just html/css/vanillaJS.  
 
 Also diving into cloudformation/s3/cloudfront for deployment and hosting.

@@ -10,15 +10,14 @@
     <meta property="og:locale" content="en_US"/>
     <meta property="og:type" content="website"/>
 
-    <meta property="og:image" content="https://randomlettermedia.com/iamges/background.jpg"/>
+    <meta property="og:image" content="<%= htmlWebpackPlugin.files.publicPath %><%= htmlWebpackPlugin.options.openGraphImagePath %>"/>
     <meta property="og:image:width" content="1920"/>
     <meta property="og:image:height" content="768"/>
 
     <!-- twitter meta -->
     <meta name="twitter:card" content="summary"/>    
 
-    <link rel="icon" type="image/x-icon" href="./favicon.ico"/>
-    <script type="text/javascript" src="./bundle.js"></script>
+    <link rel="icon" type="image/x-icon" href="<%= htmlWebpackPlugin.files.publicPath %>favicon.ico"/>
     <title>Random Letter Media</title>
   </head>
   <body>

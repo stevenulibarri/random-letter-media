@@ -3,6 +3,8 @@ import halfInTheBagEpisodes from '../data/half-in-the-bag.json';
 import plinkettReviewsEpisodes from '../data/plinkett-reviews.json';
 import reViewEpisodes from '../data/re-view.json';
 
+import fitvids from 'fitvids/dist/fitvids';
+
 import '../css/reset.css';
 import '../css/site.css';
 
@@ -13,12 +15,13 @@ const showToEpisodesMap = {
   reView: reViewEpisodes,
 };
 
+const videoContainer = '.video-container';
+
 // setup onlicks
 window.addEventListener('DOMContentLoaded', () => {
   Object.keys(showToEpisodesMap).forEach(key => {
     const el = document.getElementById(key);
     el.onclick = () => selectShow(el);
-
   });
 
   const getShowButton = document.getElementById('get-video-button');
@@ -51,4 +54,5 @@ function getRandomVideo() {
 
   const iframe = document.getElementById('video-iframe');
   iframe.src = episode.url;
+  // fitvids(videoContainer);
 }

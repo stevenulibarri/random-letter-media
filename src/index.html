@@ -1,26 +1,16 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-    <!-- open graph -->
-    <meta property="og:url" content="https://randomlettermedia.com"/>
-    <meta property="og:title" content="RandomLetterMedia"/>
-    <meta property="og:description" content="A RedLetterMedia Video Picker"/>
-    <meta property="og:locale" content="en_US"/>
-    <meta property="og:type" content="website"/>
-
-    <meta property="og:image" content="<%= htmlWebpackPlugin.files.publicPath %><%= htmlWebpackPlugin.options.openGraphImagePath %>"/>
-    <meta property="og:image:width" content="1920"/>
-    <meta property="og:image:height" content="768"/>
-
-    <!-- twitter meta -->
-    <meta name="twitter:card" content="summary"/>    
-
-    <link rel="icon" type="image/x-icon" href="<%= htmlWebpackPlugin.files.publicPath %>favicon.ico"/>
-    <title>Random Letter Media</title>
-  </head>
-  <body>
+  <!-- <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/site.css"> -->
+</head>
+<body>
+  <div class="bg"></div>
+  <div class="grid">
     <header>
       <div class="title-text-container">
         <span class="red">Random</span>
@@ -56,9 +46,9 @@
         </button>
       </div>
     </header>
-    <main>
-      <div class="content-container">
-        <div class="video-container">
+    <section class="content">
+      <div class="video-container">
+        <div class="responsive-video-container">
           <iframe
             frameborder = "0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
@@ -69,21 +59,22 @@
           </iframe>
         </div>
       </div>
-    </main>
+    </section>
     <footer>
-      <div class="social-container">
+      <div class="socials">
         <a class="social-icon youtube-icon" href="https://www.youtube.com/user/RedLetterMedia" target="_blank"></a>
         <a class="social-icon facebook-icon" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Frandomlettermedia.com" target="_blank"></a>
         <a class="social-icon twitter-icon" href="https://twitter.com/intent/tweet?text=RandomLetterMedia%3A%20A%20RedLetterMedia%20Video%20Picker&url=https%3A%2F%2Frandomlettermedia.com" target="_blank"></a>
       </div>
       <div class="credits">
         <p>
-          <span>Photo by <a href="https://unsplash.com/@seanbenesh?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Sean Benesh</a> on <a href="https://unsplash.com/s/photos/vhs?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText" target="_blank">Unsplash</a></span>
+          <span>Background by <a href="https://www.pexels.com/@padrinan?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank">Miguel Á. Padriñán</a> from <a href="https://www.pexels.com/photo/monochrome-photo-of-video-cassette-3391934/?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" target="_blank">Pexels</a></span>
         </p>
         <p>
           <span>Site by <a href="https://www.linkedin.com/in/stevenulibarri/" target="_blank">Steven Ulibarri</a> | <a href="https://github.com/stevenulibarri/random-letter-media" target="_blank">Source</a></span>
         </p>
       </div>
     </footer>
-  </body>
+  </div>
+</body>
 </html>

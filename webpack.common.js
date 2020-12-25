@@ -25,13 +25,23 @@ module.exports = {
       {
         test: /\.(png|svg|jpg|gif)$/,
         use: [
-          'file-loader',
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+            },
+          }
         ],
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         use: [
-          'file-loader',
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[name].[ext]',
+            },
+          }
         ],
       },
     ],
@@ -41,11 +51,10 @@ module.exports = {
     new HtmlWebpackPlugin({
       template: './src/index.html',
       filename: 'index.html',
-      openGraphImagePath: `og-image.${version}.jpg`
+      cache: false,
     }),
     new CopyPlugin({
       patterns: [
-        { from: './src/images/background.jpg', to: `./og-image.${version}.jpg` },
         { from: './src/images/favicon.ico', to: './favicon.ico' },
       ],
     }),

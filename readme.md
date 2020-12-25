@@ -17,6 +17,9 @@ Also diving into cloudformation/s3/cloudfront for deployment and hosting.
 ## TODO
 - ~~add webpack for minification/compilation~~
 - ~~more elegant method for getting the episode data into the browser~~
-- cloudformation templates
-- deployment automation
+- ~~cloudformation templates~~
+- TEMP test lastest template changes
+- confirm synthetic record is redirecting as expected
+- automade infra deployment
+- deployment automation to bucket + cache invalidation
 - add filtering to video picker (e.g. pick a random halloween best of the worst episode)
